@@ -12,7 +12,7 @@
 ## Build 
     docker-compose build
 ## Run 
-    docker-compose run
+    docker-compose up
   Access the network URL: http://172.27.0.3:8501
 
   Interface:
