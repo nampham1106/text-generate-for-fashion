@@ -1,10 +1,15 @@
 # text-generate-for-fashion
+  Discription: The project focuses on supporting the creation of fashion content.
+
+## Download repository
+    git clone https://github.com/nampham1106/text-generate-for-fashion.git
 
 ## Download pretrained model
   Download file `model.safetensors` in `train_article/best_model`\
-  Link download: https://j2c.cc/models
-
-## Build docker
+  Link download: https://j2c.cc/models \
+  Move file `model.safetensors` into `fastapi/models/`
+  
+## Build 
     docker-compose build
 ## Run 
     docker-compose run
